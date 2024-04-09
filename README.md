@@ -20,15 +20,17 @@ The objective of the Malware Analysis Sandbox Implementation project was to esta
 - Threat intelligence feeds for enriching malware analysis results.
 - Network traffic analysis tools like Wireshark for monitoring sandbox interactions.
 
-
-
-
-
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+Ref 1: Sandbox Deployment. This step involved the deployment and configuration of the malware analysis sandbox platform, such as Cuckoo Sandbox, within a virtualized environment. The sandbox was set up to isolate and execute suspicious files for analysis.
 
-Every screenshot should have some text explaining what the screenshot is about.
+Ref 2: Malware Sample Execution. Once the sandbox was configured, malware samples were automatically submitted for analysis. The sandbox environment executed the samples in a controlled manner while capturing their behavior and interactions.
 
-Example below.
+Ref 3: Behavior Analysis. After execution, the behavior of the malware samples was analyzed to identify any malicious activities, such as file system modifications, network communications, or system changes. This step provided insights into the capabilities and intentions of the malware.
 
-*Ref 1: Network Diagram*
+Ref 4: Results Interpretation. The analysis results from the sandbox were interpreted to determine the severity and potential impact of the malware. This information was used to guide incident response efforts and implement appropriate mitigation strategies.
+
+
+
+
+
+
